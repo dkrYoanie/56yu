@@ -4,3 +4,48 @@
 .tired {
     text-decoration-color: grey;
 }
+.title {
+    font-size: 20px;
+    color: black;
+    background-color: lightgrey;
+    border-radius: 50px;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 20px;
+}
+.small-itl-c {
+    font-style: italic;
+    font-size: 8px;
+    text-align: center; 
+}
+nav {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.nav-bar {
+    color: black;
+    background-color: rgb(224, 224, 224);
+    padding: 10px;
+    text-align: right;
+    border-bottom: 2px solid grey;
+    letter-spacing: 1px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.nav-bar li {
+    color: black;
+    display: inline-block;
+    padding: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-right: 5px;
+}
+.nav-bar li:hover {
+    background-color: rgb(197, 197, 197);
+    border-radius: 2px;
+}
+.nav-bar li a {
+    color: black;
+    text-decoration: blanchedalmond;
+}

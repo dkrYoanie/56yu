@@ -14,9 +14,10 @@ console.log("hi this is easter eeeg")
   firebase.initializeApp(firebaseConfig);
   db = firebase.database()
 //   var vb = firebase.database(db.push())
-db.ref().child("boi").push({name: "gurl", age: Math.floor(Math.random()*100)})
+// db.ref().child("boi").push({name: "gurl", age: Math.floor(Math.random()*100)})
 //   db.ref().push("test")
 // db.ref().child("boi").get()
+
 var cool = db.ref("boi")
 cool.on("value", function(snapshot){
     // console.log(snapshot)
