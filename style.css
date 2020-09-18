@@ -49,3 +49,38 @@ nav {
     color: black;
     text-decoration: blanchedalmond;
 }
+.post {
+    font-style: normal;
+    font-size: 12px;
+    padding: 10px;
+    width: 70%;
+    text-align: center;
+    background-color: rgb(199, 199, 199);
+    border-radius: 10px;
+    border: 2px solid rgb(221,221,221);
+    margin-right: auto;
+    margin-left: auto;
+}
+label {
+    font-style: normal;
+    font-size: 12px;
+    padding: 10px;
+    background-color: rgb(185, 236, 185);
+    border-radius: 3px;
+}
+input[type="text"] {
+    border: 2px;
+    color: black ;
+    width: 100%;
+    padding: 2px 2px;
+    display: block;
+}
+input[type="submit"] {
+   color: rgb(109, 83, 16);
+   font-style: bold;
+   background-color: lightyellow;
+   border-radius: 3px;
+}
+.graphics {
+
+}
