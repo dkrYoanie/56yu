@@ -25,3 +25,10 @@ cool.on("value", function(snapshot){
         console.log(childSnapshot.val())
     })
 })
+$("#dropAccount").click(function(){
+  $("#drop").css({
+    "height": "350px",
+    "visibility": "visible",
+    "transition": "0.3s"
+  })
+})

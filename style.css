@@ -76,11 +76,25 @@ input[type="text"] {
     display: block;
 }
 input[type="submit"] {
-   color: rgb(109, 83, 16);
-   font-style: bold;
-   background-color: lightyellow;
-   border-radius: 3px;
+    color: rgb(109, 83, 16);
+    font-style: bold;
+    background-color: lightyellow;
+    border-radius: 3px;
 }
 .graphics {
+    color: black;
+}
+#dropAccount{
+    position: relative;
 
+}
+#drop {
+    background-color: rgb(171, 245, 204);
+    visibility: hidden;
+    transition: 0.3s;
+    position: absolute;
+    z-index: 1;
+    width: 100px;
+    height: 250px;
+    top: 0;
 }
