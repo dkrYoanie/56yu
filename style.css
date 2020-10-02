@@ -33,21 +33,59 @@ nav {
     padding-left: 0px;
     padding-right: 0px;
 }
-.nav-bar li {
+.nav-bar a {
     color: black;
-    display: inline-block;
+    /* display: inline-block; */
+    float: left;
+    text-decoration: none;
     padding: 5px;
     margin-left: 10px;
     margin-right: 10px;
     padding-right: 5px;
 }
-.nav-bar li:hover {
+.nav-bar a:hover, .dropNav:hover .dropOption {
     background-color: rgb(197, 197, 197);
     border-radius: 2px;
 }
 .nav-bar li a {
     color: black;
     text-decoration: blanchedalmond;
+}
+.dropNav {
+    float: left;
+    overflow: hidden;
+
+}
+.dropNav .dropOption {
+    color: black;
+    padding: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-right: 5px; 
+}
+.dropNavContent {
+    display: none;
+    position: absolute;
+    background-color: grey;
+    min-width: 150px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); /*cool box shadow*/
+    z-index: 1;
+    border-radius: 5px;
+} /*hey lazy dude type 'box shadow generator' in google its cool lmao*/
+.dropNavContent a {
+    float: none;
+    color: black;
+    padding: 12px;
+    text-decoration: none;
+    display: block;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.dropNavContent a:hover {
+    background-color: rgb(197, 197, 197);
+}
+.dropNav:hover .dropNavContent{
+    display: block;
 }
 .post {
     font-style: normal;
@@ -98,3 +136,23 @@ input[type="submit"] {
     height: 250px;
     top: 0;
 }
+.drop {
+    visibility: visible;
+}
+@media only screen and (min-width: 400px) {
+    .drop{
+      visibility: hidden;
+    }
+  
+    
+   
+  }
+@media only screen and (max-width: 400px) {
+  .nav-bar a {
+    display:none;
+  }
+
+  
+ 
+}
+  

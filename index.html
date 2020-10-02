@@ -12,24 +12,35 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="col-md-12" style="padding-right:0px;padding-left:0px;">
-                    <nav>
-                        <ul class="nav-bar">
-                            <li><p id="dropAccount">CLICKknfiodnmd</p></li><!-- <li><a href="" id="dropAccount">Account</a></li> -->
-                            <li><a href="addpost.html">Add Post</a></li>
-                            <li><a href="">Your Posts</a></li>
-                            <li><a href="">Favorited Posts</a></li>
-                            <li><a href="">Friend List</a></li>
-                            <li><strong><p>Homepage</p></strong></li>
-                        </ul>
+                    <nav class="nav-bar">
+                        <div class="drop" style="font-size:35px;color:blue">
+                            <i class="fas fa-bars"></i>
+                        </div>
+                        <div class="dropNav">
+                            <p class="dropOption" id="dropAccount">CLICKknfiodnmd</p><!-- <li><a href="" id="dropAccount">Account</a></li> -->
+                            <div class="dropNavContent">
+                                <a href="">Profile</a>
+                                <a href="">hi1</a>
+                                <a href="">hi2</a>
+                                <a href="">Account Settings</a>
+                                <a href="">Sign out</a>
+                            </div>
+                        </div>
+                        
+                        <a href="addpost.html">Add Post</a>
+                        <a href="">Your Posts</a>
+                        <a href="">Favorited Posts</a>
+                        <a href="">Friend List</a>
+                        <strong><p>Homepage</p></strong>
                     </nav>
                     <div id="drop">
-                        <ul class="dropItems">
+                        <ul class="dropItems"> <!--sidebar manu for mobile from here..-->
                             <li><a href="">Profile</a></li>
                             <li><a href=""></a></li>
                             <li><a href=""></a></li>
                             <li><a href="">Account Settings</a></li>
                             <li><a href="">Sign out</a></li>
-                        </ul>
+                        </ul> <!--..to here-->
                     </div>
                 </div>
             </div>
@@ -53,6 +64,7 @@
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+        <script src="https://kit.fontawesome.com/2967dd3144.js" crossorigin="anonymous"></script>
         <script src="script.js" async defer></script>
         <!-- The core Firebase JS SDK is always required and must be listed first -->
 
